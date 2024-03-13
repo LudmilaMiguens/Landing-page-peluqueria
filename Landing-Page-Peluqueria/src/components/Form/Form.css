@@ -1,0 +1,20 @@
+.form {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name, .phone, .email {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input {
+    height: 30px;
+}
+
+
