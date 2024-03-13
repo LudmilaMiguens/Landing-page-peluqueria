@@ -6,6 +6,10 @@ export const Form = ({ onConfirm }) => {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
 
+  function handleAlert() {
+    alert(`${name}, su turno ha sido agendado, nos comunicaremos en breve`);
+  }
+
   const handleConfirm = (e) => {
     e.preventDefault();
 
@@ -48,7 +52,9 @@ export const Form = ({ onConfirm }) => {
             onChange={({ target }) => setEmail(target.value)}
           />
         </label>
-        <button>Confirmar</button>
+        <button className="button" onClick={handleAlert}>
+          Confirmar
+        </button>
       </form>
     </div>
   );
