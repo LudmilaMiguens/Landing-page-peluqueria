@@ -1,0 +1,20 @@
+.testimonios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.testimonios-contenedor {
+    flex: 0 0 calc(33.33% - 20px); /* Calcula el ancho de cada tarjeta */
+    max-width: calc(33.33% - 20px); /* Limita el ancho de cada tarjeta */
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 100%; /* Ancho completo de la tarjeta */
+    height: 200px; /* Altura fija de cada tarjeta */
+    width: 18rem;
+}
+  
