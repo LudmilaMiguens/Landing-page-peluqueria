@@ -4,11 +4,13 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Form from "./components/Form/Form";
 import { Nav } from "./components/nav/Nav";
+import { Testimonios } from "./components/Testimonios/Testimonios";
 
 function App() {
   return (
     <div>
-      <Nav/>
+      <Nav />
+      <Testimonios />
       <Form />
     </div>
   );
