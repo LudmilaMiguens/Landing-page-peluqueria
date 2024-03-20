@@ -1,0 +1,8 @@
+#carouselExampleIndicators{
+    justify-content: center;
+    border: 2px solid rgba(88, 61, 51, 0.473);
+    margin: 50px;
+    
+    width: 50%;
+
+}
