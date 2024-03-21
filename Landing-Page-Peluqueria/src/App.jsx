@@ -1,8 +1,8 @@
 import "./App.css";
 import Form from "./components/Form/Form";
 
-import { Nav } from "./components/nav/Nav";
-import { Testimonios } from "./components/Testimonios/Testimonios";
+import Nav from "./components/nav/Nav";
+import Testimonios from "./components/Testimonios/Testimonios";
 
 import Carrusel from "./components/Carrusel/Carrusel";
 import BackGround from "./components/bck-pic/Background";
@@ -13,7 +13,6 @@ function App() {
   return (
     <div>
       <Nav />
-      <Testimonios />
 
       {/* <BackGround img={BackgroundImg} /> */}
       <div className="container">
