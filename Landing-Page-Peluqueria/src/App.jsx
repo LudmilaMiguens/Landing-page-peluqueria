@@ -15,9 +15,18 @@ function App() {
       <Nav />
 
       {/* <BackGround img={BackgroundImg} /> */}
-      <Carrusel />
-
-      <Form />
+      <div className="container">
+        <div className="row">
+          <div className=".col-9 w-75">
+            <Carrusel />
+          </div>
+          <div className=".col-3 w-25 position-relative">
+            <div className="position-absolute top-50 start-100 translate-middle">
+              <Form />
+            </div>
+          </div>
+        </div>
+      </div>
 
       <Testimonios />
     </div>
