@@ -7,6 +7,7 @@ import { Testimonios } from "./components/Testimonios/Testimonios";
 import Carrusel from "./components/Carrusel/Carrusel";
 import BackGround from "./components/bck-pic/Background";
 import BackgroundImg from "./images/barberia.jpg";
+import { Nosotros } from "./components/Nosotros/Nosotros";
 
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
       {/* <BackGround img={BackgroundImg} /> */}
 
       <Form />
+      
+      <Nosotros />
 
       <Testimonios />
     </div>
