@@ -11,8 +11,9 @@ import { Nosotros } from "./components/Nosotros/Nosotros";
 
 function App() {
   return (
-    <div>
+    <div className="bck">
       <Nav />
+      <Nosotros />
 
       {/* <BackGround img={BackgroundImg} /> */}
       <div className="container">
@@ -29,7 +30,7 @@ function App() {
       </div>
 
       <Testimonios />
-     <Footer />
+      <Footer />
     </div>
   );
 }

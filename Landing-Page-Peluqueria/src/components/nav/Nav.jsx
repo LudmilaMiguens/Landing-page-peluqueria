@@ -1,9 +1,9 @@
 const Nav = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar bg-dark navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand text-white" href="#">
             Cortes Urbanos
           </a>
           <button
@@ -20,17 +20,21 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a
+                  className="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                >
                   Nosotros
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link text-white" href="#">
                   Contacto
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link text-white" href="#">
                   Testimonios
                 </a>
               </li>

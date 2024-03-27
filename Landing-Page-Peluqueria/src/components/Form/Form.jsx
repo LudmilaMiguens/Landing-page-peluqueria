@@ -24,6 +24,9 @@ export const Form = ({ onConfirm }) => {
 
   return (
     <div>
+      <div className="reserva">
+        <h1>¡Reserva tu turno!</h1>
+      </div>
       <form className="form" onSubmit={handleConfirm}>
         <label>
           Nombre:
