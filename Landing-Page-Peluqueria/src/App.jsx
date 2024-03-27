@@ -1,6 +1,6 @@
 import "./App.css";
 import Form from "./components/Form/Form";
-
+import Footer from "./components/footer/Footer";
 import Nav from "./components/nav/Nav";
 import Testimonios from "./components/Testimonios/Testimonios";
 
@@ -29,6 +29,7 @@ function App() {
       </div>
 
       <Testimonios />
+     <Footer />
     </div>
   );
 }
